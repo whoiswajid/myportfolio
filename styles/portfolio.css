@@ -1,0 +1,60 @@
+/* common shared styles*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: aquamarine;
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: aquamarine;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+/* nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+    
+    background-color: rgb(255, 255, 255);
+    
+}
+.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    background-color: white;
+}
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 400px;
+}
