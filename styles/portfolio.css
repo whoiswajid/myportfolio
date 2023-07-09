@@ -159,7 +159,7 @@ main section{
 
 footer{
     display: flex;
-    background: white;
+    background-color: rgb(174, 237, 237);
     margin-top: 100px;
     padding: 130px 200px;
 }
@@ -168,9 +168,8 @@ footer{
 }
 
 .social-links{
-    margin-right: 25px;
-    width: 24px;
-    height: 24px;
+    margin-right: 100px;
+    
 }
 .contact input[type="text"], .contact input[type="email"],
 textarea{
@@ -178,7 +177,7 @@ textarea{
     padding: 18px 35px;
     color: #757575;
     border-radius: 5px;
-    background: #7fffd4;
+    background: #ffffff;
     border: 0;
     width: 100%;
 }
